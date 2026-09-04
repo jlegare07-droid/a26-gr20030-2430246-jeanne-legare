@@ -1,0 +1,7 @@
+mesures = [125, 130,180]
+
+print(sum([125,130,180]))
+print(len(mesures))
+moenne = sum([125, 130, 180])/len(mesures)
+
+print(f"la moyenne de")

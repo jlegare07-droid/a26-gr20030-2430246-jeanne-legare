@@ -1,0 +1,13 @@
+def celsius_to_fahrenheit(celsius):
+
+    """
+    Convert Celsius to Fahrenheit
+    argument: celsius (float): Temperature in Celsius.
+    returns: Temperature in Fahrenheit.
+    """
+
+    temperature_fahrenheit = (celsius * 9/5) + 32
+    return {"temperature_c" : celsius, "temperature_f": temperature_fahrenheit}
+
+print(celsius_to_fahrenheit(celsius=0))  # Devrait afficher 32.0
+print(celsius_to_fahrenheit(celsius=100))  # Devrait afficher 212.0
